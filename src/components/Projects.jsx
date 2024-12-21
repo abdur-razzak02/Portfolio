@@ -52,7 +52,7 @@ const Projects = () => {
             </h2>
             <p className="text-gray-500">{` "A Collection of My Latest Creative and Development Work" `}</p>
           </div>
-          <button className="hover:text-white border border-main px-5 py-1 rounded-md font-medium hover:bg-main transition duration-500 w-32 lg:w-28">
+          <button className="hover:text-white border border-main px-5 py-3 rounded-md font-semibold hover:bg-main transition duration-500 ease-in-out w-32 lg:w-28">
             View All
           </button>
       </div>
@@ -61,7 +61,7 @@ const Projects = () => {
       {projects.map((project, index) => (
           <div
             key={index}
-            className="rounded-lg shadow hover:shadow-2xl transition-shadow "
+            className="rounded-lg shadow hover:shadow-2xl transition duration-500 ease-in-out"
           >
             <figure>
               <Link to={project?.liveLink}>

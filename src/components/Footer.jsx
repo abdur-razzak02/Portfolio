@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 
+
 const Footer = () => {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-100">
       <footer className="footer  items-center py-4 px-5 lg:px-0 lg:w-3/4 mx-auto">
         <aside className="grid-flow-col items-center">
           {/* <svg
@@ -18,44 +19,10 @@ const Footer = () => {
     </svg> */}
           <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
         </aside>
-        <nav className="flex items-center gap-3 md:place-self-center md:justify-self-end">
-          <Link to={"https://github.com/abdur-razzak02"} target="_blank">
-            <img
-              src={"https://i.ibb.co.com/vhvQwFr/github-icon.png"}
-              alt="github"
-              className="w-[26px]"
-            />
-          </Link>
-          <Link
-            to="https://www.facebook.com/abdur.razzak.yeamin/"
-            target="_blank"
-          >
-            <img
-              src={"https://i.ibb.co.com/PCHJWcJ/facebook-box.png"}
-              alt="facebook icon"
-              className="w-6"
-            />
-          </Link>
-          <Link
-            to={"https://www.instagram.com/abdur_razzak_yeamin/"}
-            target="_blank"
-          >
-            <img
-              src={"https://i.ibb.co.com/P6PVT9S/instagram.png"}
-              alt="instagram icon"
-              className="w-6"
-            />
-          </Link>
-          <Link
-            to={"https://www.linkedin.com/in/abdur-razzak2002/"}
-            target="_blank"
-          >
-            <img
-              src={"https://i.ibb.co.com/GMf3sY8/linkedin.png"}
-              alt="linkedin icon"
-              className="w-6"
-            />
-          </Link>
+        <nav className="flex items-center gap-3 lg:gap-8 md:place-self-center md:justify-self-end">
+          <Link>Contact</Link>
+          <Link>Privacy & Policy </Link>
+          <Link>Terms & Conditions</Link>
         </nav>
       </footer>
     </div>

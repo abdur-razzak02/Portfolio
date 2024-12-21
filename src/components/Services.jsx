@@ -10,7 +10,7 @@ const Services = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
-        <div className="border p-5 shadow hover:shadow-2xl rounded-lg">
+        <div className="border p-5 shadow hover:shadow-2xl rounded-lg transition duration-500 ease-in-out">
           <FaCode className="text-white bg-blue-300 text-6xl p-2 rounded-md"></FaCode>
           <h2 className="text-2xl text-main font-semibold py-4">
             Web Development
@@ -24,7 +24,7 @@ const Services = () => {
           </button>
         </div>
 
-        <div className="border p-5 shadow hover:shadow-2xl rounded-lg">
+        <div className="border p-5 shadow hover:shadow-2xl rounded-lg transition duration-500 ease-in-out">
           <FaMobileAlt className="text-white bg-teal-400 text-6xl p-2 rounded-md"></FaMobileAlt>
           <h2 className="text-2xl text-main font-semibold py-4">
             Responsive Design
@@ -37,7 +37,7 @@ const Services = () => {
             Read More
           </button>
         </div>
-        <div className="border p-5 shadow hover:shadow-2xl rounded-lg">
+        <div className="border p-5 shadow hover:shadow-2xl rounded-lg transition duration-500 ease-in-out">
           <FaPaintBrush className="text-white bg-pink-300 text-6xl p-2 rounded-md"></FaPaintBrush>
           <h2 className="text-2xl text-main font-semibold py-4">
             UI/UX Design
