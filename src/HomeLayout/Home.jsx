@@ -1,4 +1,4 @@
-import AboutMe from "../components/AboutMe";
+// import AboutMe from "../components/AboutMe";
 import Banner from "../components/Banner";
 import HireMe from "../components/HireMe";
 import Projects from "../components/Projects";
@@ -13,7 +13,7 @@ const Home = () => {
       <Banner></Banner>
       </div>
       <Services></Services>
-      <div className="bg-hero bg-cover bg-center bg-no-repeat"><AboutMe></AboutMe></div>
+      {/* <div className="bg-hero bg-cover bg-center bg-no-repeat"><AboutMe></AboutMe></div> */}
       <Projects></Projects>
       <Review></Review>
       <HireMe></HireMe>

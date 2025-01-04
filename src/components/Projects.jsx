@@ -21,24 +21,24 @@ const Projects = () => {
       image: "https://via.placeholder.com/300x400",
       github: "",
     },
-    {
-      title: "E-Commerce Web",
-      category: "UI/UX Design",
-      image: "https://via.placeholder.com/300x400",
-      github: "",
-    },
-    {
-      title: "Construction Web",
-      category: "Web Design",
-      image: "https://via.placeholder.com/300x400",
-      github: "",
-    },
-    {
-      title: "E-Commerce",
-      category: "Web Design",
-      image: "https://via.placeholder.com/300x400",
-      github: "",
-    },
+    // {
+    //   title: "E-Commerce Web",
+    //   category: "UI/UX Design",
+    //   image: "https://via.placeholder.com/300x400",
+    //   github: "",
+    // },
+    // {
+    //   title: "Construction Web",
+    //   category: "Web Design",
+    //   image: "https://via.placeholder.com/300x400",
+    //   github: "",
+    // },
+    // {
+    //   title: "E-Commerce",
+    //   category: "Web Design",
+    //   image: "https://via.placeholder.com/300x400",
+    //   github: "",
+    // },
   ];
   return (
     <section className="py-10 lg:py-16 px-5 lg:px-0 lg:w-3/4 mx-auto">
